@@ -7,6 +7,7 @@
 - `Custom CPU utilization (Netology)` — ключ `custom.cpu.util`, тип `Zabbix agent`, единицы измерения `%`, интервал опроса `30s`.
 - `Custom RAM Utilization (Netology)` — ключ `custom.ram.util`, тип `Zabbix agent`, единицы измерения `%`, интервал опроса `30s`.
 3. Для получения пользовательских метрик на Zabbix Agent настроены пользовательские параметры `UserParameter`. Это позволило использовать пользовательский шаблон одновременно со стандартным шаблоном `Linux by Zabbix agent` без конфликтов одинаковых ключей.
+
 [Задание 1](https://github.com/chistopunk/zabbix-homework/blob/main/images/Задание-1.png)
 
 ### Задания 2-3
@@ -19,9 +20,10 @@
 - `Linux by Zabbix agent`;
 - `Template CPU RAM Custom`.
 4. Агенты доступны: оба хоста имеют зелёный статус `ZBX`. В разделе Latest data поступают значения пользовательских метрик CPU и RAM.
+
 [Задания 2-3](https://github.com/chistopunk/zabbix-homework/blob/main/images/Задания-2-3-хосты.png)
-[Задания 2-3](https://github.com/chistopunk/zabbix-homework/blob/main/images/Задания-2-3-latest-data-host-1.png)
-[Задания 2-3](https://github.com/chistopunk/zabbix-homework/blob/main/images/Задания-2-3-latest-data-host-2.png)
+[Задания 2-3-1](https://github.com/chistopunk/zabbix-homework/blob/main/images/Задания-2-3-latest-data-host-1.png)
+[Задания 2-3-2](https://github.com/chistopunk/zabbix-homework/blob/main/images/Задания-2-3-latest-data-host-2.png)
 
 ### Задание 4
 
@@ -29,4 +31,5 @@
 2. На дашборде размещены четыре графика пользовательских метрик CPU и RAM:
 - CPU и RAM для `cherednichenkovv-1`;
 - CPU и RAM для `cherednichenkovv-2`.
+
 [Задание 4](https://github.com/chistopunk/zabbix-homework/blob/main/images/Задание-4.png)
